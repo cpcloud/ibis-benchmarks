@@ -1,0 +1,17 @@
+machine:
+  python:
+    version: 3.5.3
+  pre:
+    # upgrade sqlite3 to # make sure we have the "instr" function available
+    - sudo apt-get -qq install --only-upgrade sqlite3
+
+dependencies:
+  override:
+    - pip install -U pip
+    - pip install -U tox tox-pyenv asv
+    - pip install -e .[all]
+
+test:
+  override:
+    - asv run -e
+    #- asv publish
