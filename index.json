@@ -1,0 +1,238 @@
+{
+    "benchmarks": {
+        "benchmarks.Compilation.time_impala_base_compile": {
+            "code": "def time_impala_base_compile(self):\n    ibis.impala.compile(self.base)\n",
+            "goal_time": 2.0,
+            "name": "benchmarks.Compilation.time_impala_base_compile",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "benchmarks.Compilation.time_impala_base_compile",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "benchmarks.Compilation.time_impala_large_expr_compile": {
+            "code": "def time_impala_large_expr_compile(self):\n    ibis.impala.compile(self.expr)\n",
+            "goal_time": 2.0,
+            "name": "benchmarks.Compilation.time_impala_large_expr_compile",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "benchmarks.Compilation.time_impala_large_expr_compile",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "benchmarks.Construction.time_large_expr_construction": {
+            "code": "def time_large_expr_construction(self):\n    self.large_expr\n",
+            "goal_time": 2.0,
+            "name": "benchmarks.Construction.time_large_expr_construction",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "benchmarks.Construction.time_large_expr_construction",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "benchmarks.Formatting.time_base_expr_formatting": {
+            "code": "def time_base_expr_formatting(self):\n    str(self.base)\n",
+            "goal_time": 2.0,
+            "name": "benchmarks.Formatting.time_base_expr_formatting",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "benchmarks.Formatting.time_base_expr_formatting",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "benchmarks.Formatting.time_large_expr_formatting": {
+            "code": "def time_large_expr_formatting(self):\n    str(self.expr)\n",
+            "goal_time": 2.0,
+            "name": "benchmarks.Formatting.time_large_expr_formatting",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "benchmarks.Formatting.time_large_expr_formatting",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        }
+    },
+    "graph_param_list": [
+        {
+            "arch": "x86_64",
+            "branch": "master",
+            "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+            "graphviz": "",
+            "impyla": "",
+            "machine": "tiny",
+            "multipledispatch": "",
+            "numpy": "",
+            "os": "Linux 4.11.3-1-ARCH",
+            "pandas": "",
+            "pip+hdfs": "",
+            "pip+thrift": "",
+            "pip+thriftpy": "",
+            "python": "3.5",
+            "python-graphviz": "",
+            "ram": "16GB",
+            "six": "",
+            "sqlalchemy": "",
+            "toolz": ""
+        }
+    ],
+    "hash_length": 8,
+    "machines": {
+        "tiny": {
+            "arch": "x86_64",
+            "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+            "machine": "tiny",
+            "os": "Linux 4.11.3-1-ARCH",
+            "ram": "16GB",
+            "version": 1
+        }
+    },
+    "pages": [
+        [
+            "",
+            "Grid view",
+            "Display as a agrid"
+        ],
+        [
+            "summarylist",
+            "List view",
+            "Display as a list"
+        ],
+        [
+            "regressions",
+            "Show regressions",
+            "Display information about recent regressions"
+        ]
+    ],
+    "params": {
+        "arch": [
+            "x86_64"
+        ],
+        "branch": [
+            "master"
+        ],
+        "cpu": [
+            "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz"
+        ],
+        "graphviz": [
+            ""
+        ],
+        "impyla": [
+            ""
+        ],
+        "machine": [
+            "tiny"
+        ],
+        "multipledispatch": [
+            ""
+        ],
+        "numpy": [
+            ""
+        ],
+        "os": [
+            "Linux 4.11.3-1-ARCH"
+        ],
+        "pandas": [
+            ""
+        ],
+        "pip+hdfs": [
+            ""
+        ],
+        "pip+thrift": [
+            ""
+        ],
+        "pip+thriftpy": [
+            ""
+        ],
+        "python": [
+            "3.5"
+        ],
+        "python-graphviz": [
+            ""
+        ],
+        "ram": [
+            "16GB"
+        ],
+        "six": [
+            ""
+        ],
+        "sqlalchemy": [
+            ""
+        ],
+        "toolz": [
+            ""
+        ]
+    },
+    "project": "ibis",
+    "project_url": "http://www.ibis-project.org/",
+    "revision_to_date": {
+        "80": 1427405564000,
+        "153": 1434500405000,
+        "247": 1437380132000,
+        "299": 1439568160000,
+        "307": 1439690424000,
+        "368": 1441864603000,
+        "372": 1441900319000,
+        "380": 1442362689000,
+        "421": 1448876319000,
+        "432": 1453158986000,
+        "445": 1458143216000,
+        "447": 1459727259000,
+        "464": 1463667520000,
+        "465": 1463679782000,
+        "489": 1477716490000,
+        "514": 1480296574000,
+        "560": 1488647847000
+    },
+    "revision_to_hash": {
+        "80": "21957ea916916d9ea30790ff77ae3395f3659d90",
+        "153": "f76a7abce0855975c3940374469d917b5df0f3b7",
+        "247": "eec40ddf997288a0b671d748dd51175efc2e8e1d",
+        "299": "2425bd2015ac7fb0909c2c2bdd4b0d2e7ff148a8",
+        "307": "95229379ec4dd61ad5e0d20838fb57c302aa5842",
+        "368": "cc31c952a2844dce037cc850ca933eb6c6498313",
+        "372": "8f60e034103714f4f0362da843e869b77e9cb5e4",
+        "380": "be591d48778005494325f91a6f98e0d890adf45d",
+        "421": "a83d272f623bee227d142da2256f26a5a4b79d11",
+        "432": "a278aea9b71bd7a5cf8fadfd244922af055457fd",
+        "445": "9e67b250ebdae5dc60d62ccfd1a6f13086c8fe3e",
+        "447": "eb4e99f82fe325a274de18bf6eaf09ac05b145b5",
+        "464": "7a6c1945a30958ab0b1ebe3bff980090b113323f",
+        "465": "9f395e60a10a50e8e747a4c421a2138256b9d974",
+        "489": "566da96e51ee5596c19a4bb82e74dbdfaa30af9b",
+        "514": "eb7bfa540ee24358d25234bcce2a522cc926ce54",
+        "560": "9c3735d18a748b8bb436bd4778507e75398b4bdb"
+    },
+    "show_commit_url": "https://github.com/ibis-project/ibis/commit/",
+    "tags": {
+        "v0.1.0": 80,
+        "v0.10.0": 560,
+        "v0.2.0": 153,
+        "v0.3.0": 247,
+        "v0.4.0": 299,
+        "v0.4.1": 307,
+        "v0.5.0": 368,
+        "v0.5.1": 372,
+        "v0.5.2": 380,
+        "v0.6.0": 421,
+        "v0.6.1": 432,
+        "v0.7.0": 445,
+        "v0.7.1": 447,
+        "v0.8.0": 464,
+        "v0.8.1": 465,
+        "v0.9.0": 514
+    }
+}
