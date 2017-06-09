@@ -1,0 +1,52 @@
+[
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0,
+        "last_rev": 169,
+        "last_value": 0.004617062069999998,
+        "name": "benchmarks.Compilation.time_impala_base_compile",
+        "pretty_name": "benchmarks.Compilation.time_impala_base_compile",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0,
+        "last_rev": 169,
+        "last_value": 0.0545885776,
+        "name": "benchmarks.Compilation.time_impala_large_expr_compile",
+        "pretty_name": "benchmarks.Compilation.time_impala_large_expr_compile",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0,
+        "last_rev": 169,
+        "last_value": 0.010969547790000003,
+        "name": "benchmarks.Construction.time_large_expr_construction",
+        "pretty_name": "benchmarks.Construction.time_large_expr_construction",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0,
+        "last_rev": 169,
+        "last_value": 0.006656616390000001,
+        "name": "benchmarks.Formatting.time_base_expr_formatting",
+        "pretty_name": "benchmarks.Formatting.time_base_expr_formatting",
+        "prev_value": null
+    },
+    {
+        "change_rev": null,
+        "idx": null,
+        "last_err": 0.0,
+        "last_rev": 169,
+        "last_value": 0.018973312739999998,
+        "name": "benchmarks.Formatting.time_large_expr_formatting",
+        "pretty_name": "benchmarks.Formatting.time_large_expr_formatting",
+        "prev_value": null
+    }
+]
