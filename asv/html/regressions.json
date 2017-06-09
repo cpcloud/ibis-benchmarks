@@ -1,3 +1,22 @@
 {
-    "regressions": []
+    "regressions": [
+        [
+            "benchmarks.Formatting.time_base_expr_formatting",
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz/graphviz/impyla/machine-tiny/multipledispatch/numpy/os-Linux 4.11.3-1-ARCH/pandas/pip+hdfs/pip+thrift/pip+thriftpy/python-3.5/python-graphviz/ram-16317836/six/sqlalchemy/toolz/benchmarks.Formatting.time_base_expr_formatting.json",
+            {},
+            null,
+            [
+                [
+                    [
+                        null,
+                        530,
+                        0.002412648269999999,
+                        0.0032402031849999994
+                    ]
+                ],
+                0.0032402031849999994,
+                0.002412648269999999
+            ]
+        ]
+    ]
 }
