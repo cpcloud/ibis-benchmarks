@@ -1,0 +1,63 @@
+{
+    "commit_hash": "e1d66a80fbaf0d0b5ae17f508d364047de098865",
+    "date": 1484076334000,
+    "ended_at": {
+        "benchmarks.Compilation.time_impala_base_compile": 1496965518000,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 1496965520000,
+        "benchmarks.Construction.time_large_expr_construction": 1496965522000,
+        "benchmarks.Formatting.time_base_expr_formatting": 1496965524000,
+        "benchmarks.Formatting.time_large_expr_formatting": 1496965527000
+    },
+    "env_name": "conda-py3.5-graphviz-impyla-multipledispatch-numpy-pandas-pip+hdfs-pip+thrift-pip+thriftpy-python-graphviz-six-sqlalchemy-toolz",
+    "params": {
+        "arch": "x86_64",
+        "cpu": "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz",
+        "graphviz": "",
+        "impyla": "",
+        "machine": "tiny",
+        "multipledispatch": "",
+        "numpy": "",
+        "os": "Linux 4.11.3-1-ARCH",
+        "pandas": "",
+        "pip+hdfs": "",
+        "pip+thrift": "",
+        "pip+thriftpy": "",
+        "python": "3.5",
+        "python-graphviz": "",
+        "ram": "16317836",
+        "six": "",
+        "sqlalchemy": "",
+        "toolz": ""
+    },
+    "profiles": {},
+    "python": "3.5",
+    "requirements": {
+        "graphviz": "",
+        "impyla": "",
+        "multipledispatch": "",
+        "numpy": "",
+        "pandas": "",
+        "pip+hdfs": "",
+        "pip+thrift": "",
+        "pip+thriftpy": "",
+        "python-graphviz": "",
+        "six": "",
+        "sqlalchemy": "",
+        "toolz": ""
+    },
+    "results": {
+        "benchmarks.Compilation.time_impala_base_compile": 0.002154796860000001,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 0.022593622700000003,
+        "benchmarks.Construction.time_large_expr_construction": 0.005580498179999997,
+        "benchmarks.Formatting.time_base_expr_formatting": 0.0024379495000000006,
+        "benchmarks.Formatting.time_large_expr_formatting": 0.0078752377
+    },
+    "started_at": {
+        "benchmarks.Compilation.time_impala_base_compile": 1496965516000,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 1496965518000,
+        "benchmarks.Construction.time_large_expr_construction": 1496965520000,
+        "benchmarks.Formatting.time_base_expr_formatting": 1496965522000,
+        "benchmarks.Formatting.time_large_expr_formatting": 1496965524000
+    },
+    "version": 1
+}

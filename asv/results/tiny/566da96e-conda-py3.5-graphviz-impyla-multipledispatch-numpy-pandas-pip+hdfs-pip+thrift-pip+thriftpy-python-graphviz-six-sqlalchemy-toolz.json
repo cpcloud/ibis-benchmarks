@@ -2,11 +2,11 @@
     "commit_hash": "566da96e51ee5596c19a4bb82e74dbdfaa30af9b",
     "date": 1477716490000,
     "ended_at": {
-        "benchmarks.Compilation.time_impala_base_compile": 1496953862000,
-        "benchmarks.Compilation.time_impala_large_expr_compile": 1496953876000,
-        "benchmarks.Construction.time_large_expr_construction": 1496953883000,
-        "benchmarks.Formatting.time_base_expr_formatting": 1496953885000,
-        "benchmarks.Formatting.time_large_expr_formatting": 1496953930000
+        "benchmarks.Compilation.time_impala_base_compile": 1496965604000,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 1496965618000,
+        "benchmarks.Construction.time_large_expr_construction": 1496965620000,
+        "benchmarks.Formatting.time_base_expr_formatting": 1496965622000,
+        "benchmarks.Formatting.time_large_expr_formatting": 1496965666000
     },
     "env_name": "conda-py3.5-graphviz-impyla-multipledispatch-numpy-pandas-pip+hdfs-pip+thrift-pip+thriftpy-python-graphviz-six-sqlalchemy-toolz",
     "params": {
@@ -24,7 +24,7 @@
         "pip+thriftpy": "",
         "python": "3.5",
         "python-graphviz": "",
-        "ram": "16GB",
+        "ram": "16317836",
         "six": "",
         "sqlalchemy": "",
         "toolz": ""
@@ -46,18 +46,18 @@
         "toolz": ""
     },
     "results": {
-        "benchmarks.Compilation.time_impala_base_compile": 0.0020849680800000005,
-        "benchmarks.Compilation.time_impala_large_expr_compile": 4.090506827,
-        "benchmarks.Construction.time_large_expr_construction": 0.01925825456,
-        "benchmarks.Formatting.time_base_expr_formatting": 0.0032618339100000003,
-        "benchmarks.Formatting.time_large_expr_formatting": 43.044275934
+        "benchmarks.Compilation.time_impala_base_compile": 0.00232889393,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 4.324888683999999,
+        "benchmarks.Construction.time_large_expr_construction": 0.019038870400000008,
+        "benchmarks.Formatting.time_base_expr_formatting": 0.003387832339999999,
+        "benchmarks.Formatting.time_large_expr_formatting": 41.793531775
     },
     "started_at": {
-        "benchmarks.Compilation.time_impala_base_compile": 1496953861000,
-        "benchmarks.Compilation.time_impala_large_expr_compile": 1496953862000,
-        "benchmarks.Construction.time_large_expr_construction": 1496953876000,
-        "benchmarks.Formatting.time_base_expr_formatting": 1496953883000,
-        "benchmarks.Formatting.time_large_expr_formatting": 1496953885000
+        "benchmarks.Compilation.time_impala_base_compile": 1496965602000,
+        "benchmarks.Compilation.time_impala_large_expr_compile": 1496965604000,
+        "benchmarks.Construction.time_large_expr_construction": 1496965618000,
+        "benchmarks.Formatting.time_base_expr_formatting": 1496965620000,
+        "benchmarks.Formatting.time_large_expr_formatting": 1496965622000
     },
     "version": 1
 }
