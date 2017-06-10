@@ -73,7 +73,7 @@
             "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
             "graphviz": "",
             "impyla": "",
-            "machine": "box801",
+            "machine": "circle",
             "multipledispatch": "",
             "numpy": "",
             "os": "Linux 3.13.0-119-generic",
@@ -91,10 +91,10 @@
     ],
     "hash_length": 8,
     "machines": {
-        "box801": {
+        "circle": {
             "arch": "x86_64",
             "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
-            "machine": "box801",
+            "machine": "circle",
             "os": "Linux 3.13.0-119-generic",
             "ram": "251GB",
             "version": 1
@@ -134,7 +134,7 @@
             ""
         ],
         "machine": [
-            "box801"
+            "circle"
         ],
         "multipledispatch": [
             ""
@@ -195,7 +195,7 @@
         "108": 1463679782000,
         "118": 1480296574000,
         "128": 1488647847000,
-        "149": 1497109784000
+        "150": 1497119092000
     },
     "revision_to_hash": {
         "9": "21957ea916916d9ea30790ff77ae3395f3659d90",
@@ -214,7 +214,7 @@
         "108": "9f395e60a10a50e8e747a4c421a2138256b9d974",
         "118": "eb7bfa540ee24358d25234bcce2a522cc926ce54",
         "128": "9c3735d18a748b8bb436bd4778507e75398b4bdb",
-        "149": "1b661b58f92ac3c89053f9335fc908d3a8f2a822"
+        "150": "aca109b3d9613b21c955bd921e0c42cd2e8199f5"
     },
     "show_commit_url": "https://github.com/ibis-project/ibis/commit/",
     "tags": {
