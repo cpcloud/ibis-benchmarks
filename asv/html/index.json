@@ -70,7 +70,7 @@
         {
             "arch": "x86_64",
             "branch": "master",
-            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
             "graphviz": "",
             "impyla": "",
             "machine": "circle",
@@ -83,7 +83,7 @@
             "pip+thriftpy": "",
             "python": "3.5",
             "python-graphviz": "",
-            "ram": "251GB",
+            "ram": "61GB",
             "six": "",
             "sqlalchemy": "",
             "toolz": ""
@@ -93,10 +93,10 @@
     "machines": {
         "circle": {
             "arch": "x86_64",
-            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
             "machine": "circle",
             "os": "Linux 3.13.0-119-generic",
-            "ram": "251GB",
+            "ram": "61GB",
             "version": 1
         }
     },
@@ -125,7 +125,7 @@
             "master"
         ],
         "cpu": [
-            "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
+            "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz"
         ],
         "graphviz": [
             ""
@@ -164,7 +164,7 @@
             ""
         ],
         "ram": [
-            "251GB"
+            "61GB"
         ],
         "six": [
             ""
@@ -195,7 +195,7 @@
         "108": 1463679782000,
         "118": 1480296574000,
         "128": 1488647847000,
-        "151": 1497121646000
+        "152": 1497122176000
     },
     "revision_to_hash": {
         "9": "21957ea916916d9ea30790ff77ae3395f3659d90",
@@ -214,7 +214,7 @@
         "108": "9f395e60a10a50e8e747a4c421a2138256b9d974",
         "118": "eb7bfa540ee24358d25234bcce2a522cc926ce54",
         "128": "9c3735d18a748b8bb436bd4778507e75398b4bdb",
-        "151": "a572513621a89c08e493fdc8424ec2fe04962e14"
+        "152": "d4a16345f65b8f30921dbdafbe0d3fa87bbfa234"
     },
     "show_commit_url": "https://github.com/ibis-project/ibis/commit/",
     "tags": {

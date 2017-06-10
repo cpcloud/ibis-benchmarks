@@ -1,8 +1,8 @@
 {
     "arch": "x86_64",
-    "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+    "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
     "machine": "circle",
     "os": "Linux 3.13.0-119-generic",
-    "ram": "251GB",
+    "ram": "61GB",
     "version": 1
 }
