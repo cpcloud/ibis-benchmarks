@@ -70,10 +70,10 @@
         {
             "arch": "x86_64",
             "branch": "master",
-            "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
             "graphviz": "",
             "impyla": "",
-            "machine": "box215",
+            "machine": "box801",
             "multipledispatch": "",
             "numpy": "",
             "os": "Linux 3.13.0-119-generic",
@@ -83,7 +83,7 @@
             "pip+thriftpy": "",
             "python": "3.5",
             "python-graphviz": "",
-            "ram": "61GB",
+            "ram": "251GB",
             "six": "",
             "sqlalchemy": "",
             "toolz": ""
@@ -91,12 +91,12 @@
     ],
     "hash_length": 8,
     "machines": {
-        "box215": {
+        "box801": {
             "arch": "x86_64",
-            "cpu": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
-            "machine": "box215",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+            "machine": "box801",
             "os": "Linux 3.13.0-119-generic",
-            "ram": "61GB",
+            "ram": "251GB",
             "version": 1
         }
     },
@@ -125,7 +125,7 @@
             "master"
         ],
         "cpu": [
-            "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz"
+            "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
         ],
         "graphviz": [
             ""
@@ -134,7 +134,7 @@
             ""
         ],
         "machine": [
-            "box215"
+            "box801"
         ],
         "multipledispatch": [
             ""
@@ -164,7 +164,7 @@
             ""
         ],
         "ram": [
-            "61GB"
+            "251GB"
         ],
         "six": [
             ""
@@ -195,7 +195,7 @@
         "108": 1463679782000,
         "118": 1480296574000,
         "128": 1488647847000,
-        "148": 1497035703000
+        "149": 1497109784000
     },
     "revision_to_hash": {
         "9": "21957ea916916d9ea30790ff77ae3395f3659d90",
@@ -214,7 +214,7 @@
         "108": "9f395e60a10a50e8e747a4c421a2138256b9d974",
         "118": "eb7bfa540ee24358d25234bcce2a522cc926ce54",
         "128": "9c3735d18a748b8bb436bd4778507e75398b4bdb",
-        "148": "b954ed61d4587542f456e8ea7eedad02f9618282"
+        "149": "1b661b58f92ac3c89053f9335fc908d3a8f2a822"
     },
     "show_commit_url": "https://github.com/ibis-project/ibis/commit/",
     "tags": {
